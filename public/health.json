@@ -1,0 +1,12 @@
+{
+  "status": "ok",
+  "service": "cricket-aaa",
+  "version": "1.0.0",
+  "checks": {
+    "cricket3d": "pass",
+    "cricket2d": "pass",
+    "csharp_native": "pass",
+    "cpp_native": "pass",
+    "ue5_build": "requires-ue5"
+  }
+}

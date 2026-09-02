@@ -1,0 +1,13 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.4",
+  "Category": "Games",
+  "Description": "Original realistic cricket vertical slice built in Unreal Engine 5 C++.",
+  "Modules": [
+    {
+      "Name": "CricketGame",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    }
+  ]
+}

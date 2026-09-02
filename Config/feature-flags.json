@@ -1,0 +1,9 @@
+{
+  "flags": {
+    "cricket3d": { "enabled": true, "owner": "gameplay", "expires": "2026-12-01", "rollout": 100 },
+    "botAI": { "enabled": true, "owner": "gameplay", "expires": "2026-12-01", "rollout": 100 },
+    "csharp_native": { "enabled": true, "owner": "native", "expires": "2026-12-01", "rollout": 100 },
+    "cpp_native": { "enabled": true, "owner": "native", "expires": "2026-12-01", "rollout": 100 }
+  },
+  "rules": "Every flag has owner+expiry, no nested flags, both ON/OFF tested in CI, cleanup within 2 weeks of 100%"
+}
